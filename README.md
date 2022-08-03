@@ -6,7 +6,7 @@
 - pyyaml, tqdm, tensorboardX
 
 # Train
-Dataset: Volleyball-Skeleton-Activiuty
+Dataset: Volleyball-Skeleton-Activity
 
 Download: [VS-A](https://whueducn-my.sharepoint.com/:f:/g/personal/zjiaxu_whu_edu_cn/EpDY5l3v4BJEnUnswFTc8aMBfrtVf8KruGxgwRXnwaFpMg?e=g2pfbm)
 ```
