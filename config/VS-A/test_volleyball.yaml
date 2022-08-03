@@ -22,7 +22,7 @@ model_args:
 phase: test
 device: [7]
 test_batch_size: 64
-weights: ./runs/model_vsa.pt
+weights: ./weights/model_vsa.pt
 
 work_dir: ./work_dir
 model_saved_name: ./work_dir/model_vsa
