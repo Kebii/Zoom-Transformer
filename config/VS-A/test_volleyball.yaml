@@ -1,0 +1,29 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: ./dataset/volleyball_activity/test_joint_volleyball.npy
+  label_path: ./dataset/volleyball_activity/test_label.pkl
+  debug: False
+
+# model
+model: model.zoom_transformer.Model
+model_args:
+  num_class: 8
+  num_person: 12
+  num_point: 17
+  num_head: 6
+  in_channels: 3
+  graph: graph.volleyball.AdjMatrixGraph
+  graph_args:
+    labeling_mode: 'spatial'
+
+
+# test 
+phase: test
+device: [7]
+test_batch_size: 64
+weights: ./runs/model_vsa.pt
+
+work_dir: ./work_dir
+model_saved_name: ./work_dir/model_vsa
+save_score: True
