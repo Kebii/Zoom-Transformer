@@ -10,9 +10,9 @@ Dataset: Volleyball-Skeleton-Activity
 
 Download: [VS-A](https://whueducn-my.sharepoint.com/:f:/g/personal/zjiaxu_whu_edu_cn/EpDY5l3v4BJEnUnswFTc8aMBfrtVf8KruGxgwRXnwaFpMg?e=g2pfbm)
 ```
-python train.py --config ./config/train_cfg.yaml
+python main.py --config ./config/train_cfg.yaml
 ```
 # Inference
 ```
-python test.py --config ./config/test_cfg.yaml
+python main.py --config ./config/test_cfg.yaml
 ```
